@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/fidsouza/video-maker#readme",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "algorithmia": "^0.3.10",
+    "ibm-watson": "^5.7.0",
+    "install": "^0.13.0",
+    "readline-sync": "^1.4.10",
+    "sbd": "^1.0.18"
   }
 }

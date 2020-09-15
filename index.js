@@ -4,17 +4,13 @@ const robots = {
 }
 
 async function start() {
-    const content = {}
+    const content = {
+        maximumSentences: 8
+    }
     content.searchTerm = askAndReturnSearchTerm()
     content.prefix = askAndReturnPrefix()
     
     await robots.text(content)
-=======
-const readline = require('readline-sync'); 
-function start() {
-    const content = {}
-    content.searchTerm = askAndReturnSearchTerm()
-    content.prefix = askAndReturnPrefix()
 
     function askAndReturnSearchTerm(){
         return readline.question('Digite um termo da Wikipedia')
@@ -29,7 +25,7 @@ function start() {
         return(selectedPrefixText)
     }
 
-    console.log(content)
+    console.log(JSON.stringify(content,null,4))
 
 }
 
