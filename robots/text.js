@@ -4,6 +4,7 @@ const watsonNluApiKey   = require('../credentials/watson-nlu.json').apikey
 const sentencBoudaryDetection = require('sbd') 
 const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
+const state = require('./state.js')
 
 const nlu = new NaturalLanguageUnderstandingV1({
     authenticator: new IamAuthenticator({ apikey: watsonNluApiKey}),
@@ -11,12 +12,15 @@ const nlu = new NaturalLanguageUnderstandingV1({
     serviceUrl: 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/051ac14c-c08d-4b1e-a981-452b8ba4c76b'
   });
 
-async function robot(content){
+async function robot(){
+    const content = state.load()
     await fetchContentFromWikepedia(content)
     sanitizeContent(content)
     breakContentintoSentances(content)
     limitMaximumSentences(content)
     await fecthKeyWordsofAllSentences(content)
+
+    state.save(content)
 
     async function fetchContentFromWikepedia(){
         const algorithmiaAuthenticated = algorithmia(algorithmiaApiKey)
