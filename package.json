@@ -18,6 +18,7 @@
   "homepage": "https://github.com/fidsouza/video-maker#readme",
   "dependencies": {
     "algorithmia": "^0.3.10",
+    "googleapis": "^59.0.0",
     "ibm-watson": "^5.7.0",
     "install": "^0.13.0",
     "readline-sync": "^1.4.10",
