@@ -108,3 +108,6 @@ credentials/*.json
 
 #content
 content.json
+
+#content folder
+content/*.png
