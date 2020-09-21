@@ -9,11 +9,13 @@ const state = require('./state.js')
 const nlu = new NaturalLanguageUnderstandingV1({
     authenticator: new IamAuthenticator({ apikey: watsonNluApiKey}),
     version: '2018-04-05',
+    language: 'pt',
     serviceUrl: 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/051ac14c-c08d-4b1e-a981-452b8ba4c76b'
   });
 
 async function robot(){
     const content = state.load()
+    
     await fetchContentFromWikepedia(content)
     sanitizeContent(content)
     breakContentintoSentances(content)
@@ -25,7 +27,8 @@ async function robot(){
     async function fetchContentFromWikepedia(){
         const algorithmiaAuthenticated = algorithmia(algorithmiaApiKey)
         const wikipediaAlgorithm = algorithmiaAuthenticated.algo('web/WikipediaParser/0.1.2?timeout=300')
-        const wikipediaResponse  = await wikipediaAlgorithm.pipe(content.searchTerm)
+        const wikipediaResponse  = await wikipediaAlgorithm.pipe({'lang':'pt',
+                                                                  'articleName':content.searchTerm})
         const wikipediaContent   = wikipediaResponse.get()
 
         content.sourceContentOriginal = wikipediaContent.content

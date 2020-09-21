@@ -3,11 +3,12 @@ const state    = require('./state.js')
 
 function robot (){
     const content = {
-        maximumSentences: 8
+        maximumSentences: 7
     }
-
     content.searchTerm = askAndReturnSearchTerm()
     content.prefix = askAndReturnPrefix()
+
+
     state.save(content)
 
     function askAndReturnSearchTerm(){
