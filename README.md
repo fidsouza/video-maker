@@ -9,7 +9,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">NodeJs e JavaScript</a> • 
- <a href="https://github.com/filipedeschamps">Filipe Deschamps</a> • 
+ <a href="https://github.com/filipedeschamps">Contribuição Filipe Deschamps</a> • 
  <a href="#licenc-a">Licença MIT</a> • 
  <a href="https://www.instagram.com/ofilipe.code/">@filipe.code</a>
 </p>
@@ -25,7 +25,7 @@
 - [x] Utilização de autenticação OAuth2 para o youtube
 - [x] Utilização da api do Youtube para subir o video e thumbnail
 
-
+# Como utilizar
 # Clone este repositório
 $ git clone <https://github.com/fidsouza/video-maker.git>
 
@@ -46,15 +46,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/24476870?s=400&u=e348878d79bbfa4dc688949fb437f84ded5d4660&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Filipe Cpsta</b></sub></a> <a href="https://www.filipedacosta.com" title="Filipe Code">🚀</a>
+ <sub><b>Filipe Costa</b></sub></a> <a href="https://www.filipedacosta.com" title="Filipe Code">🚀</a>
 
 
 Feito com ❤️ por Filipe Costa, entre em contato.
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/filipe-souza-836a9b26/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:filipe.cdesouza@gmail.com)
+[![Linkedin Badge](https://www.linkedin.com/in/filipe-souza-836a9b26/)] 
+[![Gmail Badge](https://img.shields.io/badge/-filipe.cdesouza@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:filipe.cdesouza@gmail.com)](mailto:filipe.cdesouza@gmail.com)
 
 
 
