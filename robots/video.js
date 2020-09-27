@@ -17,7 +17,7 @@ async function robot(){
     await createYoutubeThumbNail()
     await renderVideoWithNode(content)
 
-    state.save()
+    state.save(content)
 
 
 
@@ -194,7 +194,7 @@ async function robot(){
     
             videoshow(images, videoOptions)
             .audio("./content/audiotemplate2.mp3")
-            .save("video.mp4")
+            .save("./content/video.mp4")
             .on("start", function(command) {
               console.log("ffmpeg process started:", command);
             })	     
