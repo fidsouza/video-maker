@@ -53,7 +53,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Filipe Costa, entre em contato.
 
-[![Linkedin Badge](https://www.linkedin.com/in/filipe-souza-836a9b26/)] 
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/filipe-souza-836a9b26/)](https://www.linkedin.com/in/filipe-souza-836a9b26/) 
 [![Gmail Badge](https://img.shields.io/badge/-filipe.cdesouza@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:filipe.cdesouza@gmail.com)](mailto:filipe.cdesouza@gmail.com)
 
 
