@@ -6,7 +6,7 @@ file : `algorithmia.json`
 
 ```
 {
-  "apikey" : "simNI8hMsdTB9Aw8FOebI0ze6u61"
+  "apikey" : "simNI8hMsdTB9w8FOebI0ze6u61"
 }
 
 ```
@@ -16,7 +16,7 @@ file : `watson-nlu.json`
 
 ```
 {
-  "apikey": "QzdXr6rM9X2Hn6sBeg-fUHJwcHLTQfB0q4k0qeUzVf-8",
+  "apikey": "QzdXr6rM9X2H6sBeg-fUHJwcHLTQfB0q4k0qeUzVf-8",
   "iam_apikey_description": "Auto-generated for key 11b5aac5-fd55-4072-8ac4-7dde62f5330e",
   "iam_apikey_name": "Auto-generated service credentials",
   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
